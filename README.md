@@ -1,16 +1,37 @@
-### Hi there 👋
-
-<!--
-**MuhammadAli251018/MuhammadAli251018** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```kotlin
+single<AndroidDeveloper> {
+    AndroidDeveloper(
+        name = "Muhammad Ali",
+        role = "Mid-Level Android Developer",
+        experience = "2 years",
+        ui = listOf(
+            "Declarative UI: Jetpack Compose",
+            "Custom Shaders & Render Effects",
+            "Animations & Motion",
+            "Adaptive layouts",
+        ),
+        architecture = listOf(
+            "Clean Architecture",
+            "Architectural Patterns: MVVM, MVI (UDF)",
+            "UI Compose Performance Optimization + In-Memory Caching Strategies",
+        ),
+        async = listOf(
+            "Concurrency & Multithreading: Coroutines",
+            "Reactive Programming & Data Streaming: Flows",
+        ),
+        testing = listOf(
+            "Unit Testing",
+            "Mock Build Variant (fake data layer for UI dev)",
+            "Feature-Flag Gated Environments",
+        ),
+        gradle = listOf(
+            "Multi-Module Project Structure",
+            "Centralised deps, plugins & task automation",
+            "Build Variants & Product Flavors",
+        ),
+        multiplatform = listOf(
+            "KMP: Shared Logic & UI (Android/iOS)",
+        ),
+    )
+}
+```
